@@ -1,49 +1,49 @@
-📝 TymeX iOS Assignment
+# 📝 TymeX iOS Assignment  
 
-🚀 Introduction
+## 🚀 Introduction  
 
-This is an iOS application developed for TymeX using SwiftUI and Combine following the MVVM architecture. The application fetches and displays a list of GitHub users, supports infinite scrolling, and allows viewing detailed user information.
+This is an iOS application developed for **TymeX** using **SwiftUI** and **Combine**, following the **MVVM architecture**.  
+The application fetches and displays a list of **GitHub users**, supports **infinite scrolling**, and allows viewing detailed user information.  
+
+---
+
+## 📱 Screenshots  
 
 <table>
   <tr>
-    <td><img src="./image/home.png" width="200"></td>
-    <td><img src="./image/detail.png" width="200"></td>
+    <td align="center"><img src="./image/home.png" width="250"></td>
+    <td align="center"><img src="./image/detail.png" width="250"></td>
   </tr>
   <tr>
-    <td><strong>Home Screen</strong></td>
-    <td><strong>Detail Screen</strong></td>
+    <td align="center"><strong>Home Screen</strong></td>
+    <td align="center"><strong>Detail Screen</strong></td>
   </tr>
 </table>
 
+---
 
+## 📌 Features  
 
-📌 Features
+✔️ **Fetch and display users** from GitHub.  
+✔️ **Infinite scrolling** with 20 users per fetch.  
+✔️ **Cached data** for instant display on app relaunch.  
+✔️ **Tap a user** to view detailed information.  
 
-✅ The administrator can browse fetched users’ information.
+---
 
-✅ The administrator can scroll down to load more users, with 20 items per fetch.
+## 🛠 Technologies  
 
-✅ Cached user data is displayed immediately when launching the application for the second time.
+- 🏗 **SwiftUI** – UI framework  
+- 🔄 **Combine** – Reactive programming  
+- 🏛 **MVVM Architecture** – Design pattern  
+- 🌐 **URLSession** – Networking  
+- 💾 **UserDefaults** – Caching  
 
-✅ Clicking on a user item navigates to the User Detail page.
+---
 
-🛠 Technologies
+## 🧪 Unit Tests  
 
-SwiftUI
-
-Combine
-
-MVVM Architecture
-
-URLSession for Networking
-
-UserDefaults for Caching
-
-🧪 Unit Tests
-
-- [x] Network Service.
-- [x] Cache Service.
-- [x] Home Feature
-- [x] Detail Feature
-
-
+✅ **Network Service**  
+✅ **Cache Service**  
+✅ **Home Feature**  
+✅ **Detail Feature**  
